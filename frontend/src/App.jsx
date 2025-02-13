@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import HomePage from './components/HomePage'
 import SignupPage from './components/SignupPage'
 import LoginPage from './components/LoginPage'
+import Contact from './components/Contact';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={ authUser ? <HomePage /> : <Navigate to="/login" />} />
           <Route path="/signup" element={!authUser ? <SignupPage /> : < Navigate to="/" />} />
           <Route path="/login" element={!authUser ? <LoginPage /> : <Navigate to="/" />} />
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
 
         <Toaster />
