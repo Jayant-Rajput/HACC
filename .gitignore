@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Vite build output
+dist/
+.vite/
+.cache/
+
+# Firebase credentials (if using Firebase config in `.env` file)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Firebase emulators (if using Firebase locally)
+firebase-debug.log
+firebase-error.log
+.firebaserc
+
+# macOS files
+.DS_Store
+
+# VSCode settings
+.vscode/
+.idea/
+
+# Logs and system files
+*.log
+*.gz
+coverage/
+*.swp
+*.swo
